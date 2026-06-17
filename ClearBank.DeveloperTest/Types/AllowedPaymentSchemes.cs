@@ -1,5 +1,8 @@
-﻿namespace ClearBank.DeveloperTest.Types
+﻿using System;
+
+namespace ClearBank.DeveloperTest.Types
 {
+    [Flags]
     public enum AllowedPaymentSchemes
     {
         FasterPayments = 1 << 0,
